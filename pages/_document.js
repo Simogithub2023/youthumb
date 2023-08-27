@@ -5,30 +5,25 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/favicon/apple-touch-icon.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/favicon/favicon-32x32.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon/favicon-16x16.png"
-          />
-          <link rel="manifest" href="/favicon/site.webmanifest" />
-              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2690887042898420"
-     crossorigin="anonymous"></script>
+          {/* ... Your existing meta tags and links ... */}
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2690887042898420"
+            crossOrigin="anonymous"
+          ></script>
         </Head>
         <body>
           <Main />
           <NextScript />
+
+          {/* Adding SEO Text */}
+          <div>
+            <h1>YouTube Thumbnail Downloader</h1>
+            <p>Save YT Video Thumbnails</p>
+            <p>Get free thumbnail image of any youtube videos in Full HD(1080), HD (720), SD, and also in small size. it's currently supported formats: YouTube (HD, HQ, 1080p, 4K) videos</p>
+            
+            {/* Add the rest of your SEO text here */}
+          </div>
         </body>
       </Html>
     );
